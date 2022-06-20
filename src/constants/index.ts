@@ -1,0 +1,32 @@
+import { getStatusBarHeight } from 'react-native-status-bar-height';
+import { ScreenHeight } from '../utils/layout';
+
+export const Constants = {
+  STATUS_BAR_HEIGHT: getStatusBarHeight(),
+  HEADER_MIN_HEIGHT: 160,
+  HEADER_MAX_HEIGHT: 292,
+  MAX_ITEM_RENDER: 15,
+  CARD_ITEM_HEIGHT: 70,
+  INITIAL_ITEM_RENDER: Math.ceil(ScreenHeight(100) / 70),
+  CARD_ICON_SIZE: 40,
+  GROUP_ICON_SIZE: 120,
+  SHORTCUT_ICON_SIZE: 80,
+  SETTINGS_ICON: 'cog',
+  FAVORITE_ICON: 'star',
+  CATALOG_MATERIAL_ICON: 'tools',
+  CATALOG_SERVICE_ICON: 'account-hard-hat',
+  CATALOG_PRODUCT_ICON: 'package-variant',
+  TASKS_ICON: 'alarm-multiple',
+  CONTACTS_ICON: 'account-group',
+  PAYMENTS_ICON: 'currency-usd',
+  CATALOGS_ICON: 'store',
+  SALES_ICON: 'sale',
+  ANIMATION_MODAL_DURATION: 300,
+  CONTACT_PHYSICAL_ICON: 'account',
+  CONTACT_BUSINESS_ICON: 'domain',
+  FAB_BOTTOM_POSITION: 20,
+  FAB_RIGHT_POSITION: 20,
+  PAGE_ICON_SIZE: 90,
+  MIN_PASSWORD_LENGTH: 8,
+  MIN_USERNAME_LENGTH: 3,
+};
